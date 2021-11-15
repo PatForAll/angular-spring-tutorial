@@ -27,6 +27,6 @@ class Customer2 {
 
 let customer2: Customer2 = new Customer2('Patrick', 'Bateman');
 
-customer.firstName = 'Jason';
+customer2.firstName = 'Jason';
 
 console.log(`Hello, ${customer2.firstName} ${customer2.lastName}!`);
