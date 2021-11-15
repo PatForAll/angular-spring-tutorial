@@ -1,0 +1,5 @@
+.idea
+angular-spring-tutorial.iml
+
+# all .js should be produced by .ts files. Only keeping .ts-files
+*.js
