@@ -9,7 +9,7 @@
   </tr>
   </thead>
   <tbody>
-  <tr *ngFor="let salesPerson of salesPersonList">
+  <tr *ngFor="let salesPerson of salesPersonList" [ngStyle]="{'background-color': (salesPerson.salesVolume >= 20000) ? 'green' : null}">
     <td>{{salesPerson.firstName}}</td>
     <td>{{salesPerson.lastName}}</td>
     <td>{{salesPerson.email}}</td>
